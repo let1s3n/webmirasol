@@ -1,6 +1,7 @@
 import Head from "next/head";
 /* import Image from 'next/image' */
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { BsLinkedin } from "react-icons/bs";
 export default function Home() {
   return (
     <>
@@ -37,9 +38,21 @@ export default function Home() {
             <h1 className="m-0 text-center">En construcción</h1>
           </Col>
         </Row>
+        <Row className="g-0 justify-content-center mt-3 mt-xl-5">
+          <Col xs="auto" className="g-0">
+            <a
+              className="d-block lh-1"
+              href="https://www.linkedin.com/company/minera-mirasol-sa/"
+            >
+              <h3 className="lh-1 m-0 p-0">
+                <BsLinkedin />
+              </h3>
+            </a>
+          </Col>
+        </Row>
         <Row
           className="g-0 justify-content-around"
-          style={{ rowGap: 2 + "rem",marginTop:"10vw" }}
+          style={{ rowGap: 2 + "rem", marginTop: "5vw" }}
         >
           <Col xl={4}>
             <p className="m-0 fs-6 fs-sm-5 text-center">
