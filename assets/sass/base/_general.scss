@@ -1,5 +1,4 @@
-body{
-  
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,36 +6,29 @@ body{
   height: 100vh;
 }
 
-.logo{
-  @include media-breakpoint-up(sm) {
-    width: 500px;
-  }
+.logo {
   width: 300px;
-  /* transition: transform 2s;
-  &:hover{
-    transform: scale(1.2);
-  } */
-  /* &--big{
-    width: 200px;
-    height: auto;
+
+  /* @include media-breakpoint-up(sm) {
+    width: 500px;
   } */
 }
 
-.fw-500{
+.fw-500 {
   font-weight: 500 !important;
 }
-.fw-600{
+.fw-600 {
   font-weight: 600 !important;
 }
 
-a{
+a {
   text-decoration: none;
   color: unset;
-  &:active{
+  &:active {
     outline: none;
     color: unset;
   }
-  &:visited{
+  &:visited {
     color: unset;
   }
 }
