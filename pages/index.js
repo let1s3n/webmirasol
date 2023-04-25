@@ -39,7 +39,7 @@ export default function Home() {
           </Col>
         </Row>
         <Row className="g-0 justify-content-center mt-3 mt-xl-5">
-          <Col xs="auto" className="g-0">
+          <Col xs="auto" className="g-0 text-center">
             <a
               className="d-block lh-1"
               href="https://www.linkedin.com/company/minera-mirasol-sa/"
@@ -48,6 +48,8 @@ export default function Home() {
                 <BsLinkedin />
               </h3>
             </a>
+
+            <p className="lh-1 m-0">info@mirasol.pe</p>
           </Col>
         </Row>
         <Row
