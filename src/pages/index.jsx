@@ -1,17 +1,10 @@
 import Head from "next/head";
-/* import Image from 'next/image' */
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { BsLinkedin } from "react-icons/bs";
 export default function Home() {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
         <title>Minera Mirasol</title>
         <meta
           name="viewport"
@@ -43,6 +36,7 @@ export default function Home() {
             <a
               className="d-block lh-1"
               href="https://www.linkedin.com/company/minera-mirasol-sa/"
+              target="_blank"
             >
               <h3 className="lh-1 m-0 p-0">
                 <BsLinkedin />
