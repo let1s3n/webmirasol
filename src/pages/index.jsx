@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Minera Mirasol</title>
         <meta
           name="viewport"
@@ -63,7 +63,7 @@ export default function Home() {
             </p>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </>
   );
 }
